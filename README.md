@@ -198,7 +198,11 @@ http://[host]/api
     "action"      :   7,
     "token"       :   "0123456789abcdef",
     "remark"      :   "",
-    "waterID"     :   0
+    "waterID"     :   0,
+    "isUse"       :   1,
+    "pressure"    :   0.0,
+    "damageLevel" :   1,
+    "damageType"  :   1
 }
 ```
 ### 返回
