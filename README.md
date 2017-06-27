@@ -176,6 +176,7 @@ http://[host]/api
     "action"    :   6,
     "token"     :   "0123456789abcdef",
     "waterName" :   "水源名称",
+    "type"      :   1,
     "lat"       :   "经度|double",
     "lon"       :   "纬度|double",
     "alt"       :   "海拔|double",
@@ -218,7 +219,7 @@ http://[host]/api
     "lon"         :   "纬度|double",
     "alt"         :   "海拔|double",
     "remark"      :   "",
-    "houseID"     :   0
+    "type"        :   1
 }
 ```
 ### 返回
