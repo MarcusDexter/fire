@@ -52,15 +52,15 @@ http://[host]/api
     "status": 1,
     "waterData": [
         {
-            "waterID":"水源ID|long",
-            "createTime":"创建时间|long|1498406400",
-            "updateTime":"更新时间|long|1498406400",
-            "type":"水源类型|int",
-            "waterName":"水源名称|string",
-            "lat":"经度|double",
-            "lon":"纬度|double",
-            "alt":"海拔|double",
-            "isUse":"是否可用"
+            "waterID"     :     "水源ID|long",
+            "createTime"  :     "创建时间|long|1498406400",
+            "updateTime"  :     "更新时间|long|1498406400",
+            "type"        :     "水源类型|int",
+            "waterName"   :     "水源名称|string",
+            "lat"         :     "经度|double",
+            "lon"         :     "纬度|double",
+            "alt"         :     "海拔|double",
+            "isUse"       :     "是否可用"
         },
         {
             "...":"..."
@@ -68,17 +68,17 @@ http://[host]/api
     ] ,
     "houseData": [
         {
-            "houseID": "队站ID|int",
-            "createTime":"创建时间|long|1498406400",
-            "updateTime":"更新时间|long|1498406400",
-            "type": "队站类型|int",
-            "houseName":"队站名称|string",
-            "lat":"经度|double",
-            "lon":"纬度|double",
-            "alt":"海拔|double"
+            "houseID"     :   "队站ID|int",
+            "createTime"  :   "创建时间|long|1498406400",
+            "updateTime"  :   "更新时间|long|1498406400",
+            "type"        :   "队站类型|int",
+            "houseName"   :   "队站名称|string",
+            "lat"         :   "经度|double",
+            "lon"         :   "纬度|double",
+            "alt"         :   "海拔|double"
         },
         {
-            "...":"..."
+            "..."   :   "..."
         }
     ]
 }
@@ -186,8 +186,8 @@ http://[host]/api
 ###返回
 ```json
 {
-    "status":1,
-    "massage":"写入成功"
+    "status"    :   1,
+    "massage"   :   "写入成功"
 }
 ```
 ##7. 添加维护记录
@@ -203,8 +203,8 @@ http://[host]/api
 ###返回
 ```json
 {
-    "status":1,
-    "massage":"写入成功"
+    "status"    :   1,
+    "massage"   :   "写入成功"
 }
 ```
 ##8. 添加队站
@@ -213,7 +213,7 @@ http://[host]/api
 {
     "action"      :   8,
     "token"       :   "0123456789abcdef",
-    "houserName"   :   "队站名称",
+    "houseName"   :   "队站名称",
     "lat"         :   "经度|double",
     "lon"         :   "纬度|double",
     "alt"         :   "海拔|double",
@@ -224,8 +224,8 @@ http://[host]/api
 ###返回
 ```json
 {
-    "status":1,
-    "massage":"写入成功"
+    "status"    :   1,
+    "massage"   :   "写入成功"
 }
 ```
 ##9. 获取图片
