@@ -158,15 +158,17 @@ http://[host]/api
 ### 返回
 ```json
 {
-    "status"          :   1,
-    "houseType"       :   1,
-    "houseName"       :   "",
-    "departmentID"    :   0,
-    "departmentName"  :   "",
-    "remark"          :   "",
-    "trunkCount"      :   1,
-    "staffCount"      :   1,
-    "address"         :   ""
+    "status"  :   1,
+    "data"    :   {
+        "houseType"       :   1,
+        "houseName"       :   "",
+        "departmentID"    :   0,
+        "departmentName"  :   "",
+        "remark"          :   "",
+        "trunkCount"      :   1,
+        "staffCount"      :   1,
+        "address"         :   ""
+    }
 }
 ```
 ## 6. 添加水源
