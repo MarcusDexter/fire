@@ -115,7 +115,7 @@ http://[host]/api
         "volume"          :   "容量|double",
         "highDifference"  :   "取水口距水面高差|double",
         "packingCount"    :   "停车数量|int",
-        "lowWater"        :   "有无枯水期",
+        "lowWater"        :   "有无枯水期|int",
         "seasonVary"      :   "四季变化"
     }
 }
