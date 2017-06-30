@@ -114,7 +114,7 @@ http://[host]/api
         "interfaceForm"   :   "接口形式",
         "volume"          :   "容量|double",
         "highDifference"  :   "取水口距水面高差|double",
-        "packingCount"    :   "停车数量|int",
+        "parkingCount"    :   "停车数量|int",
         "lowWater"        :   "有无枯水期|int",
         "seasonVary"      :   "四季变化"
     }
