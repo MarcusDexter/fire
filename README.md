@@ -138,7 +138,8 @@ http://[host]/api
         {
             "checkLogID"    :   0,
             "checkTime"     :   14900000000,
-            "remark"        :   ""
+            "name"          :   "",
+            "remark"        :   ""
         },
         {
             "..."   :   "..."
